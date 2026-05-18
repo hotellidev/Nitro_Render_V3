@@ -19,4 +19,6 @@ export class NitroEventType
     public static readonly FURNITURE_DATA_LOADED = 'FURNITURE_DATA_LOADED';
     public static readonly SESSION_DATA_UPDATED = 'SESSION_DATA_UPDATED';
     public static readonly ROOM_SESSION_UPDATED = 'ROOM_SESSION_UPDATED';
+    public static readonly IGNORED_USERS_UPDATED = 'IGNORED_USERS_UPDATED';
+    public static readonly GROUP_BADGES_UPDATED = 'GROUP_BADGES_UPDATED';
 }
