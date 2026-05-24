@@ -527,4 +527,5 @@ export class OutgoingHeader
     public static HOUSEKEEPING_FIND_USER_BY_NAME = 9100;
     public static HOUSEKEEPING_FIND_USER_BY_ID = 9101;
     public static HOUSEKEEPING_BAN_USER = 9102;
+    public static HOUSEKEEPING_UNBAN_USER = 9103;
 }
