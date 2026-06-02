@@ -1,4 +1,5 @@
 export * from './AcceptFriendFailureData';
+export * from './ConsoleReadReceiptParser';
 export * from './AcceptFriendResultParser';
 export * from './FindFriendsProcessResultParser';
 export * from './FollowFriendFailedParser';

@@ -1,4 +1,5 @@
 export * from './AcceptFriendMessageComposer';
+export * from './MarkConsoleReadComposer';
 export * from './AddFriendCategoryComposer';
 export * from './DeclineFriendMessageComposer';
 export * from './FindNewFriendsMessageComposer';
