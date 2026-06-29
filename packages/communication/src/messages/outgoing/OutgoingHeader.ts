@@ -108,6 +108,13 @@ export class OutgoingHeader
     public static ITEM_DICE_CLOSE = 1533;
     public static ITEM_DIMMER_SAVE = 1648;
     public static ITEM_DIMMER_SETTINGS = 2813;
+    public static CHEST_DEPOSIT = 9313;
+    public static CHEST_WITHDRAW = 9314;
+    public static CHEST_SAVE_SETTINGS = 9315;
+    public static CHEST_SAVE_NOTIFICATIONS = 9316;
+    public static CHEST_UPGRADE_CAPACITY = 9317;
+    public static CHEST_REQUEST_LOG = 9318;
+    public static CHEST_WITHDRAW_FURNI = 9320;
     public static ITEM_DIMMER_TOGGLE = 2296;
     public static ITEM_EXCHANGE_REDEEM = 3115;
     public static ITEM_PAINT = 711;
