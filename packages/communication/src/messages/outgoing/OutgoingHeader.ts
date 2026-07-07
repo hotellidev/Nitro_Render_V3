@@ -108,6 +108,18 @@ export class OutgoingHeader
     public static ITEM_DICE_CLOSE = 1533;
     public static ITEM_DIMMER_SAVE = 1648;
     public static ITEM_DIMMER_SETTINGS = 2813;
+    public static CHEST_DEPOSIT = 9313;
+    public static CHEST_WITHDRAW = 9314;
+    public static CHEST_SAVE_SETTINGS = 9315;
+    public static CHEST_SAVE_NOTIFICATIONS = 9316;
+    public static CHEST_UPGRADE_CAPACITY = 9317;
+    public static CHEST_REQUEST_LOG = 9318;
+    public static CHEST_WITHDRAW_FURNI = 9320;
+    public static CHEST_DEPOSIT_FURNI = 9321;
+    public static CHEST_START_DEPOSIT = 9324;
+    public static CHEST_DEPOSIT_INVENTORY_ITEM = 9325;
+    public static CHEST_WITHDRAW_ALL_FURNI = 9326;
+    public static CHEST_OPEN = 9327;
     public static ITEM_DIMMER_TOGGLE = 2296;
     public static ITEM_EXCHANGE_REDEEM = 3115;
     public static ITEM_PAINT = 711;
@@ -577,4 +589,5 @@ export class OutgoingHeader
     public static EARNINGS_REQUEST = 9308;
     public static EARNINGS_CLAIM = 9309;
     public static EARNINGS_CLAIM_ALL = 9310;
+    public static PRESS_KEYBIND = 9311;
 }
