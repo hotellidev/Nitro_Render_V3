@@ -4,6 +4,7 @@ import { GetEventDispatcher, NitroEvent, NitroEventType, ReconnectEvent } from '
 import { NitroLogger } from '@nitrots/utils';
 import { EvaWireFormat } from './codec';
 import { aesGcmDecrypt, aesGcmEncrypt, buildClientHello, deriveAesKey, deriveSharedSecret, exportPublicKeySpki, generateEphemeralKeyPair, importPublicKeySpki, importSigningPublicKeyFromBase64, NONCE_LEN, parseServerHello, randomNonce, verifyEphemeralSignature } from './crypto';
+import { ConnectionStateStore } from './ConnectionStateStore';
 import { MessageClassManager } from './messages';
 import { shouldReconnectAfterClose } from './socketClosePolicy';
 
